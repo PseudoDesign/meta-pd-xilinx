@@ -1,0 +1,10 @@
+header:
+  version: 14
+  includes:
+  - inc/xilinx.yml
+  - inc/poky.yml
+
+machine: zcu102-zynqmp
+target:
+  - core-image-base
+
