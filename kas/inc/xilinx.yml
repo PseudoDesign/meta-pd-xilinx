@@ -10,6 +10,15 @@ repos:
     layers:
       meta-xilinx-core:
       meta-xilinx-bsp: 
+      meta-xilinx-standalone:
+
   meta-xilinx-tools:
-    url: https://github.com/Xilinx/meta-xilinx-tools/tree/rel-v2025.1
+    url: https://github.com/Xilinx/meta-xilinx-tools
     branch: rel-v2025.1
+
+  meta-arm:
+    url: https://github.com/Xilinx/meta-arm
+    branch: rel-v2025.1
+    layers:
+      meta-arm:
+      meta-arm-toolchain:
