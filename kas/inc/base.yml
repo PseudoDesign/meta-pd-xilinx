@@ -22,3 +22,6 @@ repos:
     layers:
       meta-arm:
       meta-arm-toolchain:
+
+  meta-pd-xilinx:
+    
