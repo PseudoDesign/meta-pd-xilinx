@@ -6,7 +6,7 @@ repos:
   # 2025.1 Xilinx manifests: https://github.com/Xilinx/yocto-manifests/blob/xlnx-rel-v2025.1/default.xml
   meta-xilinx:
     url: https://github.com/Xilinx/meta-xilinx
-    branch: rel-v2025.2
+    branch: rel-v2025.1
     layers:
       meta-xilinx-core:
       meta-xilinx-bsp: 
@@ -14,11 +14,11 @@ repos:
 
   meta-xilinx-tools:
     url: https://github.com/Xilinx/meta-xilinx-tools
-    branch: rel-v2025.2
+    branch: rel-v2025.1
 
   meta-arm:
     url: https://github.com/Xilinx/meta-arm
-    branch: rel-v2025.2
+    branch: rel-v2025.1
     layers:
       meta-arm:
       meta-arm-toolchain:
