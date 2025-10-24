@@ -6,7 +6,7 @@ repos:
   # 2025.1 Xilinx manifests: https://github.com/Xilinx/yocto-manifests/blob/xlnx-rel-v2025.1/default.xml
   meta-xilinx:
     url: https://github.com/Xilinx/meta-xilinx
-    branch: rel-v2025.1
+    branch: rel-v2025.2
     layers:
       meta-xilinx-core:
       meta-xilinx-bsp: 
@@ -14,14 +14,20 @@ repos:
 
   meta-xilinx-tools:
     url: https://github.com/Xilinx/meta-xilinx-tools
-    branch: rel-v2025.1
+    branch: rel-v2025.2
 
   meta-arm:
     url: https://github.com/Xilinx/meta-arm
-    branch: rel-v2025.1
+    branch: rel-v2025.2
     layers:
       meta-arm:
       meta-arm-toolchain:
 
+  meta-pseudo-design:
+    url: https://github.com/PseudoDesign/meta-pseudo-design.git
+    branch: scarthgap
+    
+
   meta-pd-xilinx:
     
+  
