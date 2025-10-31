@@ -11,3 +11,5 @@ target:
 local_conf_header:
   license: |
     LICENSE_FLAGS_ACCEPTED = "xilinx"
+  cache: |
+    DL_DIR = "/home/adam/.yocto-dl"
