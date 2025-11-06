@@ -13,3 +13,5 @@ local_conf_header:
     LICENSE_FLAGS_ACCEPTED = "xilinx"
   cache: |
     DL_DIR = "/home/adam/.yocto-dl"
+  debug_tweaks: |
+    EXTRA_IMAGE_FEATURES = " debug-tweaks"
