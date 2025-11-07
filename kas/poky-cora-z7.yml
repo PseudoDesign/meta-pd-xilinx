@@ -1,8 +1,8 @@
 header:
   version: 14
   includes:
-  - inc/base.yml
-  - inc/poky.yml
+  - kas/inc/base.yml
+  - kas/inc/poky.yml
 
 machine: cora-z7
 target:
