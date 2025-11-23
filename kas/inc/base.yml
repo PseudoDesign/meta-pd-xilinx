@@ -23,10 +23,5 @@ repos:
       meta-arm:
       meta-arm-toolchain:
 
-#  meta-pseudo-design:
-#    url: https://github.com/PseudoDesign/meta-pseudo-design.git
-#    branch: scarthgap
-
   meta-pd-xilinx:
-    path: ../../
   
