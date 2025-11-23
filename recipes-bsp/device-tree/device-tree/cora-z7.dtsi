@@ -1,4 +1,3 @@
-
 / {
 	model = "Zynq Cora Z7 Development Board";
 	compatible = "digilent,zynq-coraz7", "xlnx,zynq-7000";
