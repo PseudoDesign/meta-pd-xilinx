@@ -14,4 +14,5 @@ local_conf_header:
   cache: |
     DL_DIR = "/home/adam/.yocto-dl"
   debug_tweaks: |
-    EXTRA_IMAGE_FEATURES = " debug-tweaks"
+    EXTRA_IMAGE_FEATURES = "debug-tweaks ssh-server-openssh "
+    IMAGE_INSTALL_APPEND = "libnss-mdns"
